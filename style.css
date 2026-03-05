@@ -1,0 +1,50 @@
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero h1 span {
+  color: #222;
+  background: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.skill {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+footer {
+  background: black;
+  color: white;
+}
